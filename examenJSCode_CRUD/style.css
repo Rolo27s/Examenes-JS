@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, .contenedor-buscar, #tablaDiccionario {
+    padding: 1rem;
+    text-align: left;
+}
+
+.contenedor-formulario, #formularioAgregarPalabra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+#tablaDiccionario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tablaDiccionario th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+#tablaDiccionario th, #tablaDiccionario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#tablaDiccionario tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tablaDiccionario tbody tr:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Diccionario Multilingüe</title>
+</head>
+<body>
+    <h1>Diccionario Multilingüe</h1>
+    <div class="contenedor-buscar">
+        <input type="text" id="buscarPalabra" placeholder="Buscar palabra..." required>
+    </div>
+    <div class="contenedor-formulario">
+        <h2>Añadir nueva palabra</h2>
+        <form action="" id="formularioAgregarPalabra">
+            <input type="text" id="palabraEspanol" placeholder="Palabra en español" required>
+            <input type="text" id="traduccionIngles" placeholder="Traduccion al ingles" required>
+            <input type="text" id="traduccionFrances" placeholder="Traduccion al frances" required>
+            <input type="text" id="traduccionItaliano" placeholder="Traduccion al italiano" required>
+            <button type="submit">Añadir / modificar</button>
+        </form>
+    </div>
+
+    <!-- Tabla para mostrar el diccionario -->
+    <table id="tablaDiccionario">
+        <thead>
+            <tr>
+                <th>Español</th>
+                <th>Inglés</th>
+                <th>Francés</th>
+                <th>Italiano</th>
+                <th>Borrar</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las entradas del diccionario se añadirán aquí -->
+        </tbody>
+    </table>
+
+</body>
+<script src="code.js"></script>
+</html>
