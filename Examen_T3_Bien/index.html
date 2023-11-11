@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Agenda</title>
+    </head>
+    <body>
+        <h1>Agenda</h1>
+        <h2>Añadir Contacto</h2>
+        <form id="form-add">
+            <input type="text" id="nombre" placeholder="Nombre" required />
+            <input type="number" id="telefono" placeholder="Teléfono" required />
+            <input type="submit" id="enviar-contacto" value="Enviar Contacto" />
+        </form>
+        <h2>Buscar Contacto</h2>
+        <form id="form-search">
+            <input type="text" placeholder="Nombre" required />
+            <input type="submit" value="Buscar" />
+        </form>
+        <div class="grid-container">
+            <h3>Contactos</h3>
+        </div>
+    </body>
+    <script src="code.js"></script>
+</html>
